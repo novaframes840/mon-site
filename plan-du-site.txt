@@ -1,0 +1,6 @@
+PLAN DU SITE :
+1. Page d’accueil — “Bienvenue sur mon site”
+2. Page “Prompts” — prompts ChatGPT gratuits et payants
+3. Page “Ebooks” — présentation et téléchargement des ebooks
+4. Page “À propos” — présentation du site et de son créateur
+5. (Plus tard) : Blog / Actu ou boutique si tu veux ajouter du contenu
