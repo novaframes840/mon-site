@@ -1,29 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accueil - Mon site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NovaFrames840 — Accueil</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Bienvenue sur mon site</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="ebooks.html">Ebooks</a>
-      <a href="prompts.html">Prompts</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container" style="display:flex;align-items:center;gap:18px">
+      <div class="brand">NovaFrames840</div>
+      <nav style="flex:1">
+        <a href="index.html">Accueil</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="prompts.html">Prompts</a>
+        <a href="contact.html">Contact</a>
+        <a href="plan-du-site.html">Plan du site</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <h2>Bienvenue !</h2>
-    <p>Découvrez mes ebooks, mes prompts ChatGPT, et bien plus encore.</p>
+    <section class="hero container">
+      <h1>Bienvenue sur mon site</h1>
+      <p>Bienvenue sur mon site regroupant mes ebooks, mes prompts et mon contact.</p>
+      <a class="btn" href="ebooks.html">Découvrir les Ebooks</a>
+      <a class="btn" href="prompts.html" style="margin-left:10px;background:#00b36b">Voir les Prompts</a>
+    </section>
+
+    <section class="container">
+      <div class="grid">
+        <div class="card">
+          <h3>Ebooks</h3>
+          <p>Business, développement personnel, science-fiction et Pokémon — gratuits et payants.</p>
+          <a class="btn" href="ebooks.html">Ouvrir la page Ebooks</a>
+        </div>
+
+        <div class="card">
+          <h3>Prompts ChatGPT</h3>
+          <p>Prompts gratuits et packs premium pour t'aider à automatiser et créer du contenu plus vite.</p>
+          <a class="btn" href="prompts.html">Voir les prompts</a>
+        </div>
+
+        <div class="card">
+          <h3>Contact</h3>
+          <p>Contacte-moi pour collaborations ou questions.</p>
+          <a class="btn" href="contact.html">Me contacter</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>© 2025 Mon site. Tous droits réservés.</p>
+    <div class="container">
+      © 2025 NovaFrames840 — Tous droits réservés.
+    </div>
   </footer>
 </body>
 </html>
