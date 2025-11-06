@@ -1,6 +1,39 @@
-PLAN DU SITE :
-1. Page d’accueil — “Bienvenue sur mon site”
-2. Page “Prompts” — prompts ChatGPT gratuits et payants
-3. Page “Ebooks” — présentation et téléchargement des ebooks
-4. Page “À propos” — présentation du site et de son créateur
-5. (Plus tard) : Blog / Actu ou boutique si tu veux ajouter du contenu
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Plan du site — NovaFrames840</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center;gap:18px">
+      <div class="brand">NovaFrames840</div>
+      <nav style="flex:1">
+        <a href="index.html">Accueil</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="prompts.html">Prompts</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h2>Plan du site</h2>
+      <ul style="line-height:1.8">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="ebooks.html">Ebooks (Business, Dév. perso, SF, Pokémon)</a></li>
+        <li><a href="prompts.html">Prompts ChatGPT (gratuits + payants)</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>Ce plan te permet de voir rapidement la structure du site et d’accéder aux pages.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2025 NovaFrames840</div>
+  </footer>
+</body>
+</html>
