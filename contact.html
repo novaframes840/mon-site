@@ -1,29 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NovaFrames840 — Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Contact</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="ebooks.html">Ebooks</a>
-      <a href="prompts.html">Prompts</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container" style="display:flex;align-items:center;gap:18px">
+      <div class="brand">NovaFrames840</div>
+      <nav style="flex:1">
+        <a href="index.html">Accueil</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="prompts.html">Prompts</a>
+        <a href="contact.html">Contact</a>
+        <a href="plan-du-site.html">Plan du site</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <h2>Me contacter</h2>
-    <p>Tu pourras plus tard ajouter un formulaire ou un email ici.</p>
+    <section class="container">
+      <div class="hero" style="text-align:left">
+        <h2>Contact</h2>
+        <p>Tu peux me contacter via mail : <strong><a href="mailto:ton-email@example.com">ton-email@example.com</a></strong></p>
+        <p>Ou utilise ce court message (non fonctionnel pour l'instant) :</p>
+
+        <form onsubmit="alert('Formulaire en cours de développement');return false" style="margin-top:12px;max-width:520px">
+          <input placeholder="Ton nom" required style="width:100%;padding:10px;margin-bottom:8px;border-radius:8px;border:1px solid #e6eef8">
+          <input placeholder="Ton email" required type="email" style="width:100%;padding:10px;margin-bottom:8px;border-radius:8px;border:1px solid #e6eef8">
+          <textarea placeholder="Ton message" required style="width:100%;padding:10px;margin-bottom:8px;border-radius:8px;border:1px solid #e6eef8;height:110px"></textarea>
+          <button class="btn" type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>© 2025 Mon site. Tous droits réservés.</p>
+    <div class="container">© 2025 NovaFrames840</div>
   </footer>
 </body>
 </html>
