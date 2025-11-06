@@ -1,29 +1,103 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mes ebooks</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaFrames840 | Ebooks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Mes ebooks</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="ebooks.html">Ebooks</a>
-      <a href="prompts.html">Prompts</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <main>
-    <h2>Mes ebooks gratuits et payants</h2>
-    <p>Ici, tu pourras présenter tes ebooks, ajouter des liens de téléchargement ou de paiement.</p>
-  </main>
+    <!-- Navigation -->
+    <header>
+        <h1>NovaFrames840</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="ebooks.html" class="active">Ebooks</a></li>
+                <li><a href="prompts.html">Prompts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="plan-du-site.html">Plan du site</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <footer>
-    <p>© 2025 Mon site. Tous droits réservés.</p>
-  </footer>
+    <main class="content">
+        <h2>Nos Ebooks</h2>
+        <p>Retrouvez ici tous les ebooks de NovaFrames840, classés par catégories. Certains sont gratuits, d'autres payants via PayPal.</p>
+
+        <!-- Catégorie Business -->
+        <section class="category">
+            <h3>📈 Ebooks Business</h3>
+
+            <div class="ebook">
+                <h4>Débuter son business en ligne</h4>
+                <p class="description">Un guide complet pour lancer ton premier business sur internet, même sans expérience.</p>
+                <button class="btn-free" onclick="alert('Le téléchargement gratuit sera bientôt disponible !')">📘 Télécharger gratuitement</button>
+            </div>
+
+            <div class="ebook">
+                <h4>Stratégies avancées pour réussir</h4>
+                <p class="description">Découvre des techniques puissantes pour faire évoluer ton business rapidement.</p>
+                <button class="btn-paid" onclick="alert('L’achat via PayPal sera bientôt disponible !')">💰 Acheter avec PayPal</button>
+            </div>
+        </section>
+
+        <!-- Catégorie Développement personnel -->
+        <section class="category">
+            <h3>💡 Ebooks Développement personnel</h3>
+
+            <div class="ebook">
+                <h4>Reprendre confiance en soi</h4>
+                <p class="description">Apprends à reprendre confiance en toi et à atteindre tes objectifs personnels.</p>
+                <button class="btn-free" onclick="alert('Le téléchargement gratuit sera bientôt disponible !')">📘 Télécharger gratuitement</button>
+            </div>
+
+            <div class="ebook">
+                <h4>Discipline et motivation</h4>
+                <p class="description">Les méthodes concrètes pour rester motivé dans la durée.</p>
+                <button class="btn-paid" onclick="alert('L’achat via PayPal sera bientôt disponible !')">💰 Acheter avec PayPal</button>
+            </div>
+        </section>
+
+        <!-- Catégorie Science-Fiction -->
+        <section class="category">
+            <h3>🚀 Ebooks Science-Fiction</h3>
+
+            <div class="ebook">
+                <h4>Le Dernier Signal Quantique</h4>
+                <p class="description">Un voyage à travers l’espace et le temps, où la survie de la Terre repose sur un seul message.</p>
+                <button class="btn-free" onclick="alert('Le téléchargement gratuit sera bientôt disponible !')">📘 Télécharger gratuitement</button>
+            </div>
+
+            <div class="ebook">
+                <h4>Les Mondes Perdus</h4>
+                <p class="description">Une saga épique entre galaxies et réalités parallèles.</p>
+                <button class="btn-paid" onclick="alert('L’achat via PayPal sera bientôt disponible !')">💰 Acheter avec PayPal</button>
+            </div>
+        </section>
+
+        <!-- Catégorie Pokémon -->
+        <section class="category">
+            <h3>🪙 Ebooks Pokémon</h3>
+
+            <div class="ebook">
+                <h4>Collectionner intelligemment</h4>
+                <p class="description">Apprends à reconnaître les cartes rares et à bâtir ta collection Pokémon rentable.</p>
+                <button class="btn-free" onclick="alert('Le téléchargement gratuit sera bientôt disponible !')">📘 Télécharger gratuitement</button>
+            </div>
+
+            <div class="ebook">
+                <h4>Le guide complet du collectionneur</h4>
+                <p class="description">Découvre les secrets du marché des cartes et comment les vendre au bon moment.</p>
+                <button class="btn-paid" onclick="alert('L’achat via PayPal sera bientôt disponible !')">💰 Acheter avec PayPal</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NovaFrames840 — Tous droits réservés</p>
+    </footer>
+
 </body>
 </html>
